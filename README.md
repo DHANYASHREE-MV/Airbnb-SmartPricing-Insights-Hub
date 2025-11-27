@@ -32,6 +32,7 @@ A full analytics dashboard where users can:
   - Geo-map (Mapbox) of listings with pricing and reviews  
 
 This creates a real **product-like analytics interface**.
+Train your model in this phase2 and then use it for price prediction`
 
 ---
 
