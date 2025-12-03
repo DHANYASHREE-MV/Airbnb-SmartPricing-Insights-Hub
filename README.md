@@ -52,12 +52,12 @@ This demonstrates a **true ML deployment workflow**.
 
 | Component | Description |
 |----------|-------------|
-| Model Type -- RandomForestRegressor |
-| Preprocessing -- OneHotEncoding + StandardScaler + Imputation |
-| Framework -- scikit-learn |
-| Exported Model --`price_model.pkl` |
-| Served Through -- FastAPI endpoint `/predict` |
-| Metrics Used  -- MAE • RMSE • R² |
+| Model Type |RandomForestRegressor |
+| Preprocessing | OneHotEncoding + StandardScaler + Imputation |
+| Framework|  scikit-learn |
+| Exported Model |`price_model.pkl` |
+| Served Through|  FastAPI endpoint `/predict` |
+| Metrics Used  |MAE • RMSE • R² |
 
 Pipeline built using `ColumnTransformer` + `Pipeline`.
 
